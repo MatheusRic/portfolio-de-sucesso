@@ -1,0 +1,76 @@
+.container {
+    height: 600px;
+    border: solid;
+    overflow: hidden;
+    flex-wrap: wrap;
+
+    ul {
+        list-style-type: none;
+    }
+}
+
+.projects {
+    flex-wrap: wrap;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: center;
+
+    h2 {
+        width: 200px;
+    }
+}
+
+.leftItens,
+.rigthItens {
+    width: 476px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 60px;
+    overflow: hidden;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    
+    p {
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        color: #868E96;
+    }
+
+    span {
+        background-color: rgb(47, 44, 44);
+        border-radius: 10px;
+    }
+}
+
+.projectButtons {
+    display: flex;
+    gap: 10px;
+}
+
+.appButton,
+.ghButton {
+    color: #868E96;
+    background-color: #0A0A0B;
+    border: none;
+}
+
+.appButton,
+.ghButton:hover {
+    cursor: pointer;
+    color: #623CEA;
+}
+
+.appButton,
+.ghButton:visited {
+    color: #868E96;
+}
+

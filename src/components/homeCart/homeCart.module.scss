@@ -1,0 +1,63 @@
+.container {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.myImg {
+    border-radius: 50%;
+    border: solid #623CEA;
+}
+
+.helloDiv {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    span {
+        color: #623CEA;
+    }
+}
+
+.infoDiv {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.imgTech {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+
+    :visited {
+        color: #fff;
+    }
+}
+
+.projectsButton {
+    background-color: #623CEA;
+    height: 48px;
+    width: 160px;
+    border-radius: 8px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
